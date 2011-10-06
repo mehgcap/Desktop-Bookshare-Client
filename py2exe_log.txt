@@ -1,0 +1,456 @@
+running py2exe
+creating C:\prog\bookshare\dbc\build
+creating C:\prog\bookshare\dbc\build\bdist.win32
+creating C:\prog\bookshare\dbc\build\bdist.win32\winexe
+creating C:\prog\bookshare\dbc\build\bdist.win32\winexe\collect-2.7
+creating C:\prog\bookshare\dbc\build\bdist.win32\winexe\bundle-2.7
+creating C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp
+creating C:\prog\bookshare\dbc\dist
+*** searching for required modules ***
+*** parsing results ***
+creating python loader for extension '_ctypes' (c:\python27\DLLs\_ctypes.pyd -> _ctypes.pyd)
+creating python loader for extension 'select' (c:\python27\DLLs\select.pyd -> select.pyd)
+creating python loader for extension 'unicodedata' (c:\python27\DLLs\unicodedata.pyd -> unicodedata.pyd)
+creating python loader for extension 'win32gui' (c:\python27\lib\site-packages\win32\win32gui.pyd -> win32gui.pyd)
+creating python loader for extension 'wx._controls_' (c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_controls_.pyd -> wx._controls_.pyd)
+creating python loader for extension 'win32ui' (c:\python27\lib\site-packages\Pythonwin\win32ui.pyd -> win32ui.pyd)
+creating python loader for extension 'wx._windows_' (c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_windows_.pyd -> wx._windows_.pyd)
+creating python loader for extension '_hashlib' (c:\python27\DLLs\_hashlib.pyd -> _hashlib.pyd)
+creating python loader for extension 'bz2' (c:\python27\DLLs\bz2.pyd -> bz2.pyd)
+creating python loader for extension '_ssl' (c:\python27\DLLs\_ssl.pyd -> _ssl.pyd)
+creating python loader for extension 'wx._core_' (c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_core_.pyd -> wx._core_.pyd)
+creating python loader for extension 'wx._misc_' (c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_misc_.pyd -> wx._misc_.pyd)
+creating python loader for extension '_win32sysloader' (c:\python27\lib\site-packages\win32\_win32sysloader.pyd -> _win32sysloader.pyd)
+creating python loader for extension 'wx._gdi_' (c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_gdi_.pyd -> wx._gdi_.pyd)
+creating python loader for extension 'pyexpat' (c:\python27\DLLs\pyexpat.pyd -> pyexpat.pyd)
+creating python loader for extension 'win32pipe' (c:\python27\lib\site-packages\win32\win32pipe.pyd -> win32pipe.pyd)
+creating python loader for extension 'win32api' (c:\python27\lib\site-packages\win32\win32api.pyd -> win32api.pyd)
+creating python loader for extension '_socket' (c:\python27\DLLs\_socket.pyd -> _socket.pyd)
+*** finding dlls needed ***
+*** create binaries ***
+*** byte compile python files ***
+writing byte-compilation script 'c:\users\alex\appdata\local\temp\tmpf9rc0m.py'
+c:\python27\python.exe -OO c:\users\alex\appdata\local\temp\tmpf9rc0m.py
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\_ctypes.py to _ctypes.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\_hashlib.py to _hashlib.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\_socket.py to _socket.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\_ssl.py to _ssl.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\_win32sysloader.py to _win32sysloader.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\bz2.py to bz2.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\pyexpat.py to pyexpat.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\select.py to select.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\unicodedata.py to unicodedata.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\win32api.py to win32api.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\win32gui.py to win32gui.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\win32pipe.py to win32pipe.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\win32ui.py to win32ui.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\wx._controls_.py to wx\_controls_.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\wx._core_.py to wx\_core_.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\wx._gdi_.py to wx\_gdi_.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\wx._misc_.py to wx\_misc_.pyo
+byte-compiling C:\prog\bookshare\dbc\build\bdist.win32\winexe\temp\wx._windows_.py to wx\_windows_.pyo
+byte-compiling C:\prog\bookshare\dbc\dialogs.py to dialogs.pyo
+byte-compiling C:\prog\bookshare\dbc\globals.py to globals.pyo
+byte-compiling C:\prog\bookshare\dbc\lbc.py to lbc.pyo
+byte-compiling c:\python27\lib\StringIO.py to StringIO.pyo
+byte-compiling c:\python27\lib\UserDict.py to UserDict.pyo
+byte-compiling c:\python27\lib\_LWPCookieJar.py to _LWPCookieJar.pyo
+byte-compiling c:\python27\lib\_MozillaCookieJar.py to _MozillaCookieJar.pyo
+byte-compiling c:\python27\lib\__future__.py to __future__.pyo
+byte-compiling c:\python27\lib\_abcoll.py to _abcoll.pyo
+byte-compiling c:\python27\lib\_strptime.py to _strptime.pyo
+byte-compiling c:\python27\lib\_threading_local.py to _threading_local.pyo
+byte-compiling c:\python27\lib\_weakrefset.py to _weakrefset.pyo
+byte-compiling c:\python27\lib\abc.py to abc.pyo
+byte-compiling c:\python27\lib\atexit.py to atexit.pyo
+byte-compiling c:\python27\lib\base64.py to base64.pyo
+byte-compiling c:\python27\lib\bdb.py to bdb.pyo
+byte-compiling c:\python27\lib\bisect.py to bisect.pyo
+byte-compiling c:\python27\lib\calendar.py to calendar.pyo
+byte-compiling c:\python27\lib\cmd.py to cmd.pyo
+byte-compiling c:\python27\lib\codecs.py to codecs.pyo
+byte-compiling c:\python27\lib\collections.py to collections.pyo
+byte-compiling c:\python27\lib\compiler\__init__.py to compiler\__init__.pyo
+byte-compiling c:\python27\lib\compiler\ast.py to compiler\ast.pyo
+byte-compiling c:\python27\lib\compiler\consts.py to compiler\consts.pyo
+byte-compiling c:\python27\lib\compiler\future.py to compiler\future.pyo
+byte-compiling c:\python27\lib\compiler\misc.py to compiler\misc.pyo
+byte-compiling c:\python27\lib\compiler\pyassem.py to compiler\pyassem.pyo
+byte-compiling c:\python27\lib\compiler\pycodegen.py to compiler\pycodegen.pyo
+byte-compiling c:\python27\lib\compiler\symbols.py to compiler\symbols.pyo
+byte-compiling c:\python27\lib\compiler\syntax.py to compiler\syntax.pyo
+byte-compiling c:\python27\lib\compiler\transformer.py to compiler\transformer.pyo
+byte-compiling c:\python27\lib\compiler\visitor.py to compiler\visitor.pyo
+byte-compiling c:\python27\lib\cookielib.py to cookielib.pyo
+byte-compiling c:\python27\lib\copy.py to copy.pyo
+byte-compiling c:\python27\lib\copy_reg.py to copy_reg.pyo
+byte-compiling c:\python27\lib\ctypes\__init__.py to ctypes\__init__.pyo
+byte-compiling c:\python27\lib\ctypes\_endian.py to ctypes\_endian.pyo
+byte-compiling c:\python27\lib\difflib.py to difflib.pyo
+byte-compiling c:\python27\lib\dis.py to dis.pyo
+byte-compiling c:\python27\lib\distutils\__init__.py to distutils\__init__.pyo
+byte-compiling c:\python27\lib\distutils\errors.py to distutils\errors.pyo
+byte-compiling c:\python27\lib\distutils\log.py to distutils\log.pyo
+byte-compiling c:\python27\lib\distutils\spawn.py to distutils\spawn.pyo
+byte-compiling c:\python27\lib\doctest.py to doctest.pyo
+byte-compiling c:\python27\lib\dummy_thread.py to dummy_thread.pyo
+byte-compiling c:\python27\lib\dummy_threading.py to dummy_threading.pyo
+byte-compiling c:\python27\lib\email\__init__.py to email\__init__.pyo
+byte-compiling c:\python27\lib\email\_parseaddr.py to email\_parseaddr.pyo
+byte-compiling c:\python27\lib\email\base64mime.py to email\base64mime.pyo
+byte-compiling c:\python27\lib\email\charset.py to email\charset.pyo
+byte-compiling c:\python27\lib\email\encoders.py to email\encoders.pyo
+byte-compiling c:\python27\lib\email\errors.py to email\errors.pyo
+byte-compiling c:\python27\lib\email\feedparser.py to email\feedparser.pyo
+byte-compiling c:\python27\lib\email\generator.py to email\generator.pyo
+byte-compiling c:\python27\lib\email\header.py to email\header.pyo
+byte-compiling c:\python27\lib\email\iterators.py to email\iterators.pyo
+byte-compiling c:\python27\lib\email\message.py to email\message.pyo
+byte-compiling c:\python27\lib\email\mime\__init__.py to email\mime\__init__.pyo
+byte-compiling c:\python27\lib\email\parser.py to email\parser.pyo
+byte-compiling c:\python27\lib\email\quoprimime.py to email\quoprimime.pyo
+byte-compiling c:\python27\lib\email\utils.py to email\utils.pyo
+byte-compiling c:\python27\lib\encodings\__init__.py to encodings\__init__.pyo
+byte-compiling c:\python27\lib\encodings\aliases.py to encodings\aliases.pyo
+byte-compiling c:\python27\lib\encodings\ascii.py to encodings\ascii.pyo
+byte-compiling c:\python27\lib\encodings\base64_codec.py to encodings\base64_codec.pyo
+byte-compiling c:\python27\lib\encodings\big5.py to encodings\big5.pyo
+byte-compiling c:\python27\lib\encodings\big5hkscs.py to encodings\big5hkscs.pyo
+byte-compiling c:\python27\lib\encodings\bz2_codec.py to encodings\bz2_codec.pyo
+byte-compiling c:\python27\lib\encodings\charmap.py to encodings\charmap.pyo
+byte-compiling c:\python27\lib\encodings\cp037.py to encodings\cp037.pyo
+byte-compiling c:\python27\lib\encodings\cp1006.py to encodings\cp1006.pyo
+byte-compiling c:\python27\lib\encodings\cp1026.py to encodings\cp1026.pyo
+byte-compiling c:\python27\lib\encodings\cp1140.py to encodings\cp1140.pyo
+byte-compiling c:\python27\lib\encodings\cp1250.py to encodings\cp1250.pyo
+byte-compiling c:\python27\lib\encodings\cp1251.py to encodings\cp1251.pyo
+byte-compiling c:\python27\lib\encodings\cp1252.py to encodings\cp1252.pyo
+byte-compiling c:\python27\lib\encodings\cp1253.py to encodings\cp1253.pyo
+byte-compiling c:\python27\lib\encodings\cp1254.py to encodings\cp1254.pyo
+byte-compiling c:\python27\lib\encodings\cp1255.py to encodings\cp1255.pyo
+byte-compiling c:\python27\lib\encodings\cp1256.py to encodings\cp1256.pyo
+byte-compiling c:\python27\lib\encodings\cp1257.py to encodings\cp1257.pyo
+byte-compiling c:\python27\lib\encodings\cp1258.py to encodings\cp1258.pyo
+byte-compiling c:\python27\lib\encodings\cp424.py to encodings\cp424.pyo
+byte-compiling c:\python27\lib\encodings\cp437.py to encodings\cp437.pyo
+byte-compiling c:\python27\lib\encodings\cp500.py to encodings\cp500.pyo
+byte-compiling c:\python27\lib\encodings\cp720.py to encodings\cp720.pyo
+byte-compiling c:\python27\lib\encodings\cp737.py to encodings\cp737.pyo
+byte-compiling c:\python27\lib\encodings\cp775.py to encodings\cp775.pyo
+byte-compiling c:\python27\lib\encodings\cp850.py to encodings\cp850.pyo
+byte-compiling c:\python27\lib\encodings\cp852.py to encodings\cp852.pyo
+byte-compiling c:\python27\lib\encodings\cp855.py to encodings\cp855.pyo
+byte-compiling c:\python27\lib\encodings\cp856.py to encodings\cp856.pyo
+byte-compiling c:\python27\lib\encodings\cp857.py to encodings\cp857.pyo
+byte-compiling c:\python27\lib\encodings\cp858.py to encodings\cp858.pyo
+byte-compiling c:\python27\lib\encodings\cp860.py to encodings\cp860.pyo
+byte-compiling c:\python27\lib\encodings\cp861.py to encodings\cp861.pyo
+byte-compiling c:\python27\lib\encodings\cp862.py to encodings\cp862.pyo
+byte-compiling c:\python27\lib\encodings\cp863.py to encodings\cp863.pyo
+byte-compiling c:\python27\lib\encodings\cp864.py to encodings\cp864.pyo
+byte-compiling c:\python27\lib\encodings\cp865.py to encodings\cp865.pyo
+byte-compiling c:\python27\lib\encodings\cp866.py to encodings\cp866.pyo
+byte-compiling c:\python27\lib\encodings\cp869.py to encodings\cp869.pyo
+byte-compiling c:\python27\lib\encodings\cp874.py to encodings\cp874.pyo
+byte-compiling c:\python27\lib\encodings\cp875.py to encodings\cp875.pyo
+byte-compiling c:\python27\lib\encodings\cp932.py to encodings\cp932.pyo
+byte-compiling c:\python27\lib\encodings\cp949.py to encodings\cp949.pyo
+byte-compiling c:\python27\lib\encodings\cp950.py to encodings\cp950.pyo
+byte-compiling c:\python27\lib\encodings\euc_jis_2004.py to encodings\euc_jis_2004.pyo
+byte-compiling c:\python27\lib\encodings\euc_jisx0213.py to encodings\euc_jisx0213.pyo
+byte-compiling c:\python27\lib\encodings\euc_jp.py to encodings\euc_jp.pyo
+byte-compiling c:\python27\lib\encodings\euc_kr.py to encodings\euc_kr.pyo
+byte-compiling c:\python27\lib\encodings\gb18030.py to encodings\gb18030.pyo
+byte-compiling c:\python27\lib\encodings\gb2312.py to encodings\gb2312.pyo
+byte-compiling c:\python27\lib\encodings\gbk.py to encodings\gbk.pyo
+byte-compiling c:\python27\lib\encodings\hex_codec.py to encodings\hex_codec.pyo
+byte-compiling c:\python27\lib\encodings\hp_roman8.py to encodings\hp_roman8.pyo
+byte-compiling c:\python27\lib\encodings\hz.py to encodings\hz.pyo
+byte-compiling c:\python27\lib\encodings\idna.py to encodings\idna.pyo
+byte-compiling c:\python27\lib\encodings\iso2022_jp.py to encodings\iso2022_jp.pyo
+byte-compiling c:\python27\lib\encodings\iso2022_jp_1.py to encodings\iso2022_jp_1.pyo
+byte-compiling c:\python27\lib\encodings\iso2022_jp_2.py to encodings\iso2022_jp_2.pyo
+byte-compiling c:\python27\lib\encodings\iso2022_jp_2004.py to encodings\iso2022_jp_2004.pyo
+byte-compiling c:\python27\lib\encodings\iso2022_jp_3.py to encodings\iso2022_jp_3.pyo
+byte-compiling c:\python27\lib\encodings\iso2022_jp_ext.py to encodings\iso2022_jp_ext.pyo
+byte-compiling c:\python27\lib\encodings\iso2022_kr.py to encodings\iso2022_kr.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_1.py to encodings\iso8859_1.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_10.py to encodings\iso8859_10.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_11.py to encodings\iso8859_11.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_13.py to encodings\iso8859_13.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_14.py to encodings\iso8859_14.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_15.py to encodings\iso8859_15.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_16.py to encodings\iso8859_16.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_2.py to encodings\iso8859_2.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_3.py to encodings\iso8859_3.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_4.py to encodings\iso8859_4.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_5.py to encodings\iso8859_5.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_6.py to encodings\iso8859_6.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_7.py to encodings\iso8859_7.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_8.py to encodings\iso8859_8.pyo
+byte-compiling c:\python27\lib\encodings\iso8859_9.py to encodings\iso8859_9.pyo
+byte-compiling c:\python27\lib\encodings\johab.py to encodings\johab.pyo
+byte-compiling c:\python27\lib\encodings\koi8_r.py to encodings\koi8_r.pyo
+byte-compiling c:\python27\lib\encodings\koi8_u.py to encodings\koi8_u.pyo
+byte-compiling c:\python27\lib\encodings\latin_1.py to encodings\latin_1.pyo
+byte-compiling c:\python27\lib\encodings\mac_arabic.py to encodings\mac_arabic.pyo
+byte-compiling c:\python27\lib\encodings\mac_centeuro.py to encodings\mac_centeuro.pyo
+byte-compiling c:\python27\lib\encodings\mac_croatian.py to encodings\mac_croatian.pyo
+byte-compiling c:\python27\lib\encodings\mac_cyrillic.py to encodings\mac_cyrillic.pyo
+byte-compiling c:\python27\lib\encodings\mac_farsi.py to encodings\mac_farsi.pyo
+byte-compiling c:\python27\lib\encodings\mac_greek.py to encodings\mac_greek.pyo
+byte-compiling c:\python27\lib\encodings\mac_iceland.py to encodings\mac_iceland.pyo
+byte-compiling c:\python27\lib\encodings\mac_latin2.py to encodings\mac_latin2.pyo
+byte-compiling c:\python27\lib\encodings\mac_roman.py to encodings\mac_roman.pyo
+byte-compiling c:\python27\lib\encodings\mac_romanian.py to encodings\mac_romanian.pyo
+byte-compiling c:\python27\lib\encodings\mac_turkish.py to encodings\mac_turkish.pyo
+byte-compiling c:\python27\lib\encodings\mbcs.py to encodings\mbcs.pyo
+byte-compiling c:\python27\lib\encodings\palmos.py to encodings\palmos.pyo
+byte-compiling c:\python27\lib\encodings\ptcp154.py to encodings\ptcp154.pyo
+byte-compiling c:\python27\lib\encodings\punycode.py to encodings\punycode.pyo
+byte-compiling c:\python27\lib\encodings\quopri_codec.py to encodings\quopri_codec.pyo
+byte-compiling c:\python27\lib\encodings\raw_unicode_escape.py to encodings\raw_unicode_escape.pyo
+byte-compiling c:\python27\lib\encodings\rot_13.py to encodings\rot_13.pyo
+byte-compiling c:\python27\lib\encodings\shift_jis.py to encodings\shift_jis.pyo
+byte-compiling c:\python27\lib\encodings\shift_jis_2004.py to encodings\shift_jis_2004.pyo
+byte-compiling c:\python27\lib\encodings\shift_jisx0213.py to encodings\shift_jisx0213.pyo
+byte-compiling c:\python27\lib\encodings\string_escape.py to encodings\string_escape.pyo
+byte-compiling c:\python27\lib\encodings\tis_620.py to encodings\tis_620.pyo
+byte-compiling c:\python27\lib\encodings\undefined.py to encodings\undefined.pyo
+byte-compiling c:\python27\lib\encodings\unicode_escape.py to encodings\unicode_escape.pyo
+byte-compiling c:\python27\lib\encodings\unicode_internal.py to encodings\unicode_internal.pyo
+byte-compiling c:\python27\lib\encodings\utf_16.py to encodings\utf_16.pyo
+byte-compiling c:\python27\lib\encodings\utf_16_be.py to encodings\utf_16_be.pyo
+byte-compiling c:\python27\lib\encodings\utf_16_le.py to encodings\utf_16_le.pyo
+byte-compiling c:\python27\lib\encodings\utf_32.py to encodings\utf_32.pyo
+byte-compiling c:\python27\lib\encodings\utf_32_be.py to encodings\utf_32_be.pyo
+byte-compiling c:\python27\lib\encodings\utf_32_le.py to encodings\utf_32_le.pyo
+byte-compiling c:\python27\lib\encodings\utf_7.py to encodings\utf_7.pyo
+byte-compiling c:\python27\lib\encodings\utf_8.py to encodings\utf_8.pyo
+byte-compiling c:\python27\lib\encodings\utf_8_sig.py to encodings\utf_8_sig.pyo
+byte-compiling c:\python27\lib\encodings\uu_codec.py to encodings\uu_codec.pyo
+byte-compiling c:\python27\lib\encodings\zlib_codec.py to encodings\zlib_codec.pyo
+byte-compiling c:\python27\lib\fnmatch.py to fnmatch.pyo
+byte-compiling c:\python27\lib\ftplib.py to ftplib.pyo
+byte-compiling c:\python27\lib\functools.py to functools.pyo
+byte-compiling c:\python27\lib\genericpath.py to genericpath.pyo
+byte-compiling c:\python27\lib\getopt.py to getopt.pyo
+byte-compiling c:\python27\lib\getpass.py to getpass.pyo
+byte-compiling c:\python27\lib\gettext.py to gettext.pyo
+byte-compiling c:\python27\lib\glob.py to glob.pyo
+byte-compiling c:\python27\lib\gzip.py to gzip.pyo
+byte-compiling c:\python27\lib\hashlib.py to hashlib.pyo
+byte-compiling c:\python27\lib\heapq.py to heapq.pyo
+byte-compiling c:\python27\lib\httplib.py to httplib.pyo
+byte-compiling c:\python27\lib\inspect.py to inspect.pyo
+byte-compiling c:\python27\lib\io.py to io.pyo
+byte-compiling c:\python27\lib\keyword.py to keyword.pyo
+byte-compiling c:\python27\lib\linecache.py to linecache.pyo
+byte-compiling c:\python27\lib\locale.py to locale.pyo
+byte-compiling c:\python27\lib\logging\__init__.py to logging\__init__.pyo
+byte-compiling c:\python27\lib\mimetools.py to mimetools.pyo
+byte-compiling c:\python27\lib\mimetypes.py to mimetypes.pyo
+byte-compiling c:\python27\lib\new.py to new.pyo
+byte-compiling c:\python27\lib\ntpath.py to ntpath.pyo
+byte-compiling c:\python27\lib\nturl2path.py to nturl2path.pyo
+byte-compiling c:\python27\lib\opcode.py to opcode.pyo
+byte-compiling c:\python27\lib\optparse.py to optparse.pyo
+byte-compiling c:\python27\lib\os.py to os.pyo
+byte-compiling c:\python27\lib\os2emxpath.py to os2emxpath.pyo
+byte-compiling c:\python27\lib\pdb.py to pdb.pyo
+byte-compiling c:\python27\lib\pickle.py to pickle.pyo
+byte-compiling c:\python27\lib\platform.py to platform.pyo
+byte-compiling c:\python27\lib\plistlib.py to plistlib.pyo
+byte-compiling c:\python27\lib\posixpath.py to posixpath.pyo
+byte-compiling c:\python27\lib\pprint.py to pprint.pyo
+byte-compiling c:\python27\lib\py_compile.py to py_compile.pyo
+byte-compiling c:\python27\lib\quopri.py to quopri.pyo
+byte-compiling c:\python27\lib\random.py to random.pyo
+byte-compiling c:\python27\lib\re.py to re.pyo
+byte-compiling c:\python27\lib\repr.py to repr.pyo
+byte-compiling c:\python27\lib\rfc822.py to rfc822.pyo
+byte-compiling c:\python27\lib\shlex.py to shlex.pyo
+byte-compiling c:\python27\lib\shutil.py to shutil.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\__init__.py to pywin\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\dialogs\__init__.py to pywin\dialogs\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\dialogs\list.py to pywin\dialogs\list.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\dialogs\status.py to pywin\dialogs\status.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\mfc\__init__.py to pywin\mfc\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\mfc\dialog.py to pywin\mfc\dialog.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\mfc\object.py to pywin\mfc\object.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\mfc\thread.py to pywin\mfc\thread.pyo
+byte-compiling c:\python27\lib\site-packages\Pythonwin\pywin\mfc\window.py to pywin\mfc\window.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\__init__.py to accessible_output\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\__init__.py to accessible_output\braille\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\brailler.py to accessible_output\braille\brailler.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\outputs\__init__.py to accessible_output\braille\outputs\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\outputs\jaws.py to accessible_output\braille\outputs\jaws.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\outputs\main.py to accessible_output\braille\outputs\main.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\outputs\nvda.py to accessible_output\braille\outputs\nvda.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\outputs\sa.py to accessible_output\braille\outputs\sa.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\braille\outputs\we.py to accessible_output\braille\outputs\we.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\output.py to accessible_output\output.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\priority.py to accessible_output\priority.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\__init__.py to accessible_output\speech\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\__init__.py to accessible_output\speech\outputs\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\dolphin.py to accessible_output\speech\outputs\dolphin.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\jaws.py to accessible_output\speech\outputs\jaws.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\main.py to accessible_output\speech\outputs\main.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\nvda.py to accessible_output\speech\outputs\nvda.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\sa.py to accessible_output\speech\outputs\sa.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\sapi5.py to accessible_output\speech\outputs\sapi5.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\sapi5voice.py to accessible_output\speech\outputs\sapi5voice.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\speech_d.py to accessible_output\speech\outputs\speech_d.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\speechd_client.py to accessible_output\speech\outputs\speechd_client.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\speechd_client_new.py to accessible_output\speech\outputs\speechd_client_new.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\voiceover.py to accessible_output\speech\outputs\voiceover.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\outputs\we.py to accessible_output\speech\outputs\we.pyo
+byte-compiling c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\speech\speaker.py to accessible_output\speech\speaker.pyo
+byte-compiling c:\python27\lib\site-packages\configobj.py to configobj.pyo
+byte-compiling c:\python27\lib\site-packages\platform_utils-0.24-py2.7.egg\platform_utils\__init__.py to platform_utils\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\platform_utils-0.24-py2.7.egg\platform_utils\libloader.py to platform_utils\libloader.pyo
+byte-compiling c:\python27\lib\site-packages\platform_utils-0.24-py2.7.egg\platform_utils\paths.py to platform_utils\paths.pyo
+byte-compiling c:\python27\lib\site-packages\pybookshare\__init__.py to pybookshare\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\pybookshare\pybookshare.py to pybookshare\pybookshare.pyo
+byte-compiling c:\python27\lib\site-packages\pythoncom.py to pythoncom.pyo
+byte-compiling c:\python27\lib\site-packages\pythonutils\odict.py to odict.pyo
+byte-compiling c:\python27\lib\site-packages\validate.py to validate.pyo
+byte-compiling c:\python27\lib\site-packages\win32\lib\commctrl.py to commctrl.pyo
+byte-compiling c:\python27\lib\site-packages\win32\lib\pywintypes.py to pywintypes.pyo
+byte-compiling c:\python27\lib\site-packages\win32\lib\win32con.py to win32con.pyo
+byte-compiling c:\python27\lib\site-packages\win32\lib\winerror.py to winerror.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\__init__.py to win32com\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\CLSIDToClass.py to win32com\client\CLSIDToClass.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\__init__.py to win32com\client\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\build.py to win32com\client\build.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\dynamic.py to win32com\client\dynamic.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\gencache.py to win32com\client\gencache.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\genpy.py to win32com\client\genpy.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\makepy.py to win32com\client\makepy.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\selecttlb.py to win32com\client\selecttlb.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\client\util.py to win32com\client\util.pyo
+byte-compiling c:\python27\lib\site-packages\win32com\gen_py\__init__.py to win32com\gen_py\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\__init__.py to wx\__init__.pyo
+byte-compiling c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\__version__.py to wx\__version__.pyo
+byte-compiling c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_controls.py to wx\_controls.pyo
+byte-compiling c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py to wx\_core.pyo
+byte-compiling c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_gdi.py to wx\_gdi.pyo
+byte-compiling c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_misc.py to wx\_misc.pyo
+byte-compiling c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_windows.py to wx\_windows.pyo
+byte-compiling c:\python27\lib\socket.py to socket.pyo
+byte-compiling c:\python27\lib\sre.py to sre.pyo
+byte-compiling c:\python27\lib\sre_compile.py to sre_compile.pyo
+byte-compiling c:\python27\lib\sre_constants.py to sre_constants.pyo
+byte-compiling c:\python27\lib\sre_parse.py to sre_parse.pyo
+byte-compiling c:\python27\lib\ssl.py to ssl.pyo
+byte-compiling c:\python27\lib\stat.py to stat.pyo
+byte-compiling c:\python27\lib\string.py to string.pyo
+byte-compiling c:\python27\lib\stringprep.py to stringprep.pyo
+byte-compiling c:\python27\lib\struct.py to struct.pyo
+byte-compiling c:\python27\lib\subprocess.py to subprocess.pyo
+byte-compiling c:\python27\lib\symbol.py to symbol.pyo
+byte-compiling c:\python27\lib\symtable.py to symtable.pyo
+byte-compiling c:\python27\lib\tarfile.py to tarfile.pyo
+byte-compiling c:\python27\lib\tempfile.py to tempfile.pyo
+byte-compiling c:\python27\lib\textwrap.py to textwrap.pyo
+byte-compiling c:\python27\lib\threading.py to threading.pyo
+byte-compiling c:\python27\lib\token.py to token.pyo
+byte-compiling c:\python27\lib\tokenize.py to tokenize.pyo
+byte-compiling c:\python27\lib\traceback.py to traceback.pyo
+byte-compiling c:\python27\lib\types.py to types.pyo
+byte-compiling c:\python27\lib\unittest\__init__.py to unittest\__init__.pyo
+byte-compiling c:\python27\lib\unittest\case.py to unittest\case.pyo
+byte-compiling c:\python27\lib\unittest\loader.py to unittest\loader.pyo
+byte-compiling c:\python27\lib\unittest\main.py to unittest\main.pyo
+byte-compiling c:\python27\lib\unittest\result.py to unittest\result.pyo
+byte-compiling c:\python27\lib\unittest\runner.py to unittest\runner.pyo
+byte-compiling c:\python27\lib\unittest\signals.py to unittest\signals.pyo
+byte-compiling c:\python27\lib\unittest\suite.py to unittest\suite.pyo
+byte-compiling c:\python27\lib\unittest\util.py to unittest\util.pyo
+byte-compiling c:\python27\lib\urllib.py to urllib.pyo
+byte-compiling c:\python27\lib\urllib2.py to urllib2.pyo
+byte-compiling c:\python27\lib\urlparse.py to urlparse.pyo
+byte-compiling c:\python27\lib\uu.py to uu.pyo
+byte-compiling c:\python27\lib\warnings.py to warnings.pyo
+byte-compiling c:\python27\lib\weakref.py to weakref.pyo
+byte-compiling c:\python27\lib\xml\__init__.py to xml\__init__.pyo
+byte-compiling c:\python27\lib\xml\etree\ElementPath.py to xml\etree\ElementPath.pyo
+byte-compiling c:\python27\lib\xml\etree\ElementTree.py to xml\etree\ElementTree.pyo
+byte-compiling c:\python27\lib\xml\etree\__init__.py to xml\etree\__init__.pyo
+byte-compiling c:\python27\lib\xml\parsers\__init__.py to xml\parsers\__init__.pyo
+byte-compiling c:\python27\lib\xml\parsers\expat.py to xml\parsers\expat.pyo
+byte-compiling c:\python27\lib\zipfile.py to zipfile.pyo
+removing c:\users\alex\appdata\local\temp\tmpf9rc0m.py
+*** copy extensions ***
+copying c:\python27\DLLs\_ctypes.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\DLLs\_hashlib.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\DLLs\_socket.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\DLLs\_ssl.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\DLLs\bz2.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\DLLs\pyexpat.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\DLLs\select.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\DLLs\unicodedata.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\Pythonwin\win32ui.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\win32\_win32sysloader.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\win32\win32api.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\win32\win32gui.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\win32\win32pipe.pyd -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_controls_.pyd -> C:\prog\bookshare\dbc\dist\wx._controls_.pyd
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_core_.pyd -> C:\prog\bookshare\dbc\dist\wx._core_.pyd
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_gdi_.pyd -> C:\prog\bookshare\dbc\dist\wx._gdi_.pyd
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_misc_.pyd -> C:\prog\bookshare\dbc\dist\wx._misc_.pyd
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\_windows_.pyd -> C:\prog\bookshare\dbc\dist\wx._windows_.pyd
+*** copy dlls ***
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\wxmsw28uh_html_vc.dll -> C:\prog\bookshare\dbc\dist
+copying C:\Windows\system32\pywintypes27.dll -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\wxbase28uh_vc.dll -> C:\prog\bookshare\dbc\dist
+copying C:\Windows\system32\python27.dll -> C:\prog\bookshare\dbc\dist
+setting sys.winver for 'C:\prog\bookshare\dbc\dist\python27.dll' to 'Desktop Bookshare Client'
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\wxbase28uh_net_vc.dll -> C:\prog\bookshare\dbc\dist
+copying c:\python27\w9xpopen.exe -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\wxmsw28uh_core_vc.dll -> C:\prog\bookshare\dbc\dist
+copying c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\wxmsw28uh_adv_vc.dll -> C:\prog\bookshare\dbc\dist
+copying C:\Windows\system32\pythoncom27.dll -> C:\prog\bookshare\dbc\dist
+*** copy data files ***
+creating C:\prog\bookshare\dbc\dist\Microsoft.VC90.CRT
+copying C:\prog\bookshare\dbc\system_dlls\mfc90.dll -> C:\prog\bookshare\dbc\dist\Microsoft.VC90.CRT
+copying C:\prog\bookshare\dbc\system_dlls\Microsoft.VC90.CRT.manifest -> C:\prog\bookshare\dbc\dist\Microsoft.VC90.CRT
+copying C:\prog\bookshare\dbc\system_dlls\msvcp90.dll -> C:\prog\bookshare\dbc\dist\Microsoft.VC90.CRT
+copying C:\prog\bookshare\dbc\system_dlls\msvcr90.dll -> C:\prog\bookshare\dbc\dist\Microsoft.VC90.CRT
+copying C:\prog\bookshare\dbc\readme.html -> C:\prog\bookshare\dbc\dist\
+copying C:\prog\bookshare\dbc\license.txt -> C:\prog\bookshare\dbc\dist\
+creating C:\prog\bookshare\dbc\dist\accessible_output
+creating C:\prog\bookshare\dbc\dist\accessible_output\lib
+copying c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\lib\dolapi.dll -> C:\prog\bookshare\dbc\dist\accessible_output\lib
+copying c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\lib\jfwapi.dll -> C:\prog\bookshare\dbc\dist\accessible_output\lib
+copying c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\lib\nvdaControllerClient32.dll -> C:\prog\bookshare\dbc\dist\accessible_output\lib
+copying c:\python27\lib\site-packages\accessible_output-0.7.8-py2.7.egg\accessible_output\lib\SAAPI32.dll -> C:\prog\bookshare\dbc\dist\accessible_output\lib
+copying c:\python27\lib\site-packages\py2exe\run_w.exe -> C:\prog\bookshare\dbc\dist\dbc.exe
+The following modules appear to be missing
+['Carbon', 'Carbon.Files', 'ElementC14N', '_scproxy', 'appscript', 'spawn', 'speechd.paths']
+
+*** binary dependencies ***
+Your executable(s) also depend on these dlls which are not included,
+you may or may not need to distribute them.
+
+Make sure you have the license if you distribute any of them, and
+make sure you don't distribute files belonging to the operating system.
+
+   OLEAUT32.dll - C:\Windows\system32\OLEAUT32.dll
+   USER32.dll - C:\Windows\system32\USER32.dll
+   SHELL32.dll - C:\Windows\system32\SHELL32.dll
+   ole32.dll - C:\Windows\system32\ole32.dll
+   COMDLG32.dll - C:\Windows\system32\COMDLG32.dll
+   WSOCK32.dll - C:\Windows\system32\WSOCK32.dll
+   COMCTL32.dll - C:\Windows\system32\COMCTL32.dll
+   ADVAPI32.dll - C:\Windows\system32\ADVAPI32.dll
+   mfc90.dll - c:\python27\lib\site-packages\Pythonwin\mfc90.dll
+   WS2_32.dll - C:\Windows\system32\WS2_32.dll
+   WINSPOOL.DRV - C:\Windows\system32\WINSPOOL.DRV
+   GDI32.dll - C:\Windows\system32\GDI32.dll
+   MSVCP90.dll - c:\python27\DLLs\MSVCP90.dll
+   gdiplus.dll - c:\python27\lib\site-packages\wx-2.8-msw-unicode\wx\gdiplus.dll
+   VERSION.dll - C:\Windows\system32\VERSION.dll
+   KERNEL32.dll - C:\Windows\system32\KERNEL32.dll
+   WINMM.dll - C:\Windows\system32\WINMM.dll
+   RPCRT4.dll - C:\Windows\system32\RPCRT4.dll

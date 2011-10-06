@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Readme for Desktop Bookshare Client</title>
+</head>
+
+<body>
+
+<h1>What is it?</h1>
+<p>DBC is a small program meant to make browsing Bookshare (http://www.bookshare.org) easier. It currently supports individual accounts and book browsing only; institutional accounts and periodical support are being worked on.</p>
+
+<h1>Usage</h1>
+
+<h2>The Main Dialog</h2>
+<p>When the program starts for the first time, you are asked for your Bookshare username and password; you can either provide them or skip this step by just clicking the "Cancel" button. You are then at the main dialog, from where you can start a new search (alt-s), view the latest Bookshare additions (alt-l), or view the most popular titles (alt-p). You may also set your preferences (alt-r), including username/password, the folder for downloaded books, and more.</p>
+
+<h2>Searching</h2>
+<p>When you perform a new search, you enter the text to search for, select the search type, then (if available) select the category and grade in which to search. By default, no grade or category is specified, and "title" is the search type that will be selected. To get all books in a category, select that option from the "search type" list, then select the desired category. At this point, you may either start the search or select a grade (remember that the default grade is "all grades", which is to say that no grade will be specified). If a search returns more results than the limit specified in the preferences (defaults to 250), you will see result navigation buttons in the search results dialog. Alt-n moves to the next batch of results, unless you are on the last results already; alt-p moves to the previous results, unless you are on the first set already; alt-f moves to the first page; alt-l moves to the last page.
+You can download the book (alt-d), which will get the book in your desired format, unless you specify "ask each time" in the options. Or you can request more information on the book (alt-i). Alt-a will launch a new search for all books by the author of the selected book. If the book has more than one author, you will be prompted to select the one you want from a list.</p>
+
+<h2>Favorites</h2>
+<p>When you have search results, you can press alt-s to save them to your favorites list, which will appear when you first start the application. This lets you save your favorite authors or categories, or save a search that you want to return to later. Due to how much time it would take, there is currently no way to "watch" a favorite; that is, DBC cannot check through all of your favorites and tell you if a new book has been added to any of them. Believe me, if this were possible I would do it, but the Bookshare API is slow to respond and limits the number of requests I can send it per second, so even a few favorites would take a long time.</p>
+
+<h2>Preferences</h2>
+<p>The preferences dialog (alt-r from the Main Dialog) includes the following options:
+<ul>
+<li>Username: your Bookshare username, the same one you use to log into Bookshare. This is normally the email address you have registered with Bookshare.</li>
+<li>Password: the password you use to log into Bookshare. After you enter this once, it will remain saved, but will only show up in this edit box as a bunch of stars.</li>
+<li>the extension of downloaded books (zip or bks2). Please note that this preference is not the same as the zip/bks2 preference on Bookshare.org.</li>
+<li>The default format for books (ask each time, brf, or daisy). If you choose Daisy or BRF, books will be downloaded in the selected format when you choose the "download" button for a book. If you choose "ask each time", then a dialog will appear when you download a book, asking which format you want.</li>
+<li>Download location: click the button to choose the folder into which books will be downloaded. By default, this is c:\books.</li>
+<li>Automatically unzip books: if checked, DBC will unzip a book once it is downloaded. When it unzips a BRF book, it places the BRF file in the same folder as the zipped book. If the book is in DAISY format, the files for the book are unzipped to a subdirectory of the download folder. This subdirectory will have the same name as the book. If you enable this option and download "The Giver" to c:\books, the BRF version would give you c:\books\The_Giver.brf; the DAISY version would give you a folder, c:\books\The Giver, in which are all the DAISY files. In either case, the original (zipped) book will be erased once the unzipping is complete.
+<li>Amount of results to show per page: this number can range from 1 to 250; anything outside of that will revert to these limits. This number is to tell DBC how many search results to show per dialog before you must use the Next or Previous navigation buttons.</li>
+<li>Speak progress messages: if checked, DBC will use your screen reader, or SAPI5 if no screen reader is running, to announce things like "loading favorite", "downloading book", and so on. If unchecked, as I expect non-screen reader users will prefer, DBC will never speak at all. This is checked by default.</li>
+</ul>
+
+<h1>Frequently Asked Questions</h1>
+<p>Technically, I haven't gotten questions yet, but I have put what I anticipate to be common questions below.</p>
+
+<h2>Why can't I save the "most popular" or "most recent" searches to my favorites?</h2>
+<p>This is because it would make no sense to do so; if you want to open either one of these, just hit the hotkey for it.</p>
+
+<h2>How do I sort results, such as viewing the most recently added in a category?</h2>
+<p>Unfortunately, you don't. DBC runs atop the Bookshare API, which means that it can't do anything which is not allowed by the API. Sorting results is one such unsupported item, sadly. If results can ever be sorted, I will add this feature as soon as possible.</p>
+
+<h2>How do I look for magazines and newspapers?</h2>
+<p>This feature is being worked on.</p>
+
+<h2>Can I change my Bookshare password from DBC? What about other information?</h2>
+<p>Not at this time, no.</p>
+
+<h2>I installed DBC, but I don't see it in my Start Menu. What happened?</h2>
+<p>You have to restart your computer before DBC will appear in the Start Menu. It will run from the desktop shortcut, and from Windows Vista and Windows 7 Start menus by typing in it's name, though.</p>
+
+<h2>I use JAWS for Windows, and things seem to read oddly (dialog names, random words in dialogs...) What is this?</h2>
+<p>JFW seems to read out the title of the previous dialog, then the title of the current dialog. When tested with NVDA (http://www.nvda-project.org), this problem did not happen, so it seems to be a JFW thing. Reading random words seems to be due to JFW's announcing of the first item in a list when that item is selected. For your convenience, the first item in any list is selected automatically, with the side effect that JFW speaks it out loud.</p>
+
+<h2>Sometimes, I hear the title of the previous dialog, or the current one when a search has loaded, but my keyboard does nothing. What happened?</h2>
+<p>This happens occasionally, and I am not sure why. Searches can sometimes take quite a while on Bookshare's end, so DBC can become unresponsive. Just wait for the search to either finish or throw an error. If you think you are on the dialog but are not (the keyboard seems to do nothing), just alt-tab to get back to the dialog. Again, I am not sure why, but every so often focus is lost and you must alt-tab to get it back.</p>
+
+<h2>Why am I limited to 250 results at a time?</h2>
+<p>This is another API limitation. Requesting more than 250 books would only return 250, so DBC must remain at or below 250.</p>
+
+<h2>Why does DBC not just show a book's synopsis and other information in the search results dialog? Why the button to get information?</h2>
+<p>You will notice that the "more info" button takes a moment to respond. This is because much of a book's information, including the long synopsis, is not given when a search is performed; instead, it must be specifically requested. This is yet another limitation of the API.</p>
+
+<h2>I forgot my password! Now what?</h2>
+<p>DBC can't help you here. You must go to bookshare.org and request a password reminder there. However, once you enter your password once in DBC, it is saved; you should not have to enter it again unless you change it.</p>
+
+<h2>Why is information (such as author or publisher) not present on all books?</h2>
+<p>DBC has no control over this; it just shows what the Bookshare website gives it. If information is missing, it is missing on Bookshare.</p>
+
+<h1>Change Log</h1>
+<h2>v1.01 beta</h2>
+<ul>
+<li>Made 'p' the access key for "speak progress messages" in the settings dialog.</li>
+<li>fixed error that forced the user to select a download location before the program could download books, but did not prompt for this. Now, if no config file is found, the user is prompted for a download location.</li>
+<li>Fixed an occasional encoding bug.</li>
+<li>Started keeping this changelog in the readme to track future versions.</li>
+</ul>
+
+<h2>v1.0 beta</h2>
+<ul>
+<li>Initial release!</li>
+</ul>
+
+</body>
+</html>
